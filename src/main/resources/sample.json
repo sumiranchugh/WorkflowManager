@@ -1,0 +1,168 @@
+{
+  "sewadarCommandObj": {
+    "ZonalSewadarId": 19092,
+    "SSNO": "BH0011GB2002                                      ",
+    "ZoneId": 0,
+    "AreaId": "32",
+    "CentreId": "11",
+    "DepartmentID": "ITB",
+    "PointId": 0,
+    "Name": "ROHIT GROVER",
+    "Gender": "Male",
+    "FatherHusbandName": "VISHWANATH GROVER",
+    "DOB": "10/01/1900",
+    "DOE": "05/07/2015",
+    "ContactNumber": null,
+    "CreatedBy": "",
+    "Formavailaible": "N",
+    "MaritalStatus": "UNMARRIED",
+    "IsNI": true,
+    "isAllDataUpdated": false,
+    "ListOfFamilyMemberInitiated": null,
+    "MonthlyIncome": "",
+    "SubDepartmentID": "",
+    "LicenseType": "",
+    "LicenseExpiryDate": "01/01/2010",
+    "InitiationDate": "03/12/2012",
+    "InitiatedBy": "5",
+    "InitiationPlace": "BEAS",
+    "NoOfDaysCanSpareForSewa": "0",
+    "Addresses": [
+      {
+        "AddressType": "Residence",
+        "Address": "A-1/363, 1ST FLOOR PASCHIM VIHAR",
+        "StateId": "",
+        "CityId": "ND_ND_DLI",
+        "PinCode": "110063",
+        "SewadarAddressId": 19092
+      },
+      {
+        "AddressType": "Office",
+        "Address": "C.S.C INDIA PVT. LTD\r\nSECTOR-58\r\n",
+        "StateId": "",
+        "CityId": "NDA_AGR_UP",
+        "PinCode": "",
+        "SewadarAddressId": 66296
+      }
+    ],
+    "OfficeContactNumbers": null,
+    "ResidenceContactNumbers": "",
+    "qualificationTypeId": 0,
+    "qualificationDegreeId": 0,
+    "qualificationSpecializationId": 0,
+    "Qualifications": [
+      {
+        "QualificationDegreeId": 37,
+        "QualificationDegreeName": "Others",
+        "QualificationSpecializationId": 102,
+        "QualificationSpecializationName": "Others",
+        "QualificationTypeId": 4,
+        "QualificationTypeName": "Graduation",
+        "SewadarQualificationId": 32698,
+        "ZonalSewadarId": 19092
+      }
+    ],
+    "Languages": [
+      {
+        "LanguageId": "ENG  ",
+        "SewadarLanguageId": 120692,
+        "SewadarLanguageRWS": "READ ",
+        "ZonalSewadarId": 19092
+      },
+      {
+        "LanguageId": "ENG  ",
+        "SewadarLanguageId": 120693,
+        "SewadarLanguageRWS": "SPEAK",
+        "ZonalSewadarId": 19092
+      },
+      {
+        "LanguageId": "ENG  ",
+        "SewadarLanguageId": 120694,
+        "SewadarLanguageRWS": "Write",
+        "ZonalSewadarId": 19092
+      },
+      {
+        "LanguageId": "HINDI",
+        "SewadarLanguageId": 120695,
+        "SewadarLanguageRWS": "READ ",
+        "ZonalSewadarId": 19092
+      },
+      {
+        "LanguageId": "HINDI",
+        "SewadarLanguageId": 120696,
+        "SewadarLanguageRWS": "SPEAK",
+        "ZonalSewadarId": 19092
+      },
+      {
+        "LanguageId": "HINDI",
+        "SewadarLanguageId": 120697,
+        "SewadarLanguageRWS": "Write",
+        "ZonalSewadarId": 19092
+      }
+    ],
+    "SlipType": "GR",
+    "ReferenceSewadars": [],
+    "UploadedDocuments": [],
+    "SewadarContacts": [
+      {
+        "ContactInfo": "8800497132",
+        "ContactTypeId": 1,
+        "ContactTypeName": "Mobile Home",
+        "IsActiveContact": true,
+        "IsPrimaryContact": true,
+        "SewadarContactDetailsId": 155,
+        "ZonalSewadarId": 19092
+      },
+      {
+        "ContactInfo": "09811093393",
+        "ContactTypeId": 6,
+        "ContactTypeName": "Emergency Contact Number",
+        "IsActiveContact": true,
+        "IsPrimaryContact": false,
+        "SewadarContactDetailsId": 52140,
+        "ZonalSewadarId": 19092
+      }
+    ],
+    "SewadarGovtDocuments": [],
+    "SewadarRFIDDetails": [
+      {
+        "IsActiveRFID": true,
+        "RFIDInfo": "",
+        "RFIDTypeId": 1,
+        "RFIDTypeName": "Badge",
+        "SewadarRFIDDetailId": 1005,
+        "ZonalSewadarId": 19092
+      }
+    ],
+    "FamilySewadars": [
+      {
+        "ReferenceType": "F",
+        "RelReferenceSewadarDept": "CAF  ",
+        "RelReferenceSewadarId": "BH0011GA0708                                      ",
+        "RelReferenceSewadarName": "ASHOK KUMAR",
+        "RelReferenceZonalSewadarId": 1,
+        "RelationshipId": "F    ",
+        "RelationshipName": "FATHER",
+        "SewadarReferenceDetailId": 70432,
+        "ZonalSewadarId": 19092
+      }
+    ],
+    "verifiedBySId": "",
+    "verifiedByZId": 0,
+    "verifiedOn": null,
+    "Specializations": [
+      {
+        "RelSpecializationName": null,
+        "SewadarSpecializationId"nm: 12516,
+        "SpecializationId": 6,
+        "SpecializationName": "COMPUTER",
+        "ZonalSewadarId": 19092
+      }
+    ],
+    "Status": "Permanent           ",
+    "OldRemarks": "To Do Notes: Remarks:  ~ 10/27/2013 - testTo Do Notes: Remarks:  ~ 4/12/2014 - NewTo Do Notes: Remarks:  ~ 10/27/2013 - testTo Do Notes: Remarks: ",
+    "BadgeOperationId": 0,
+    "IsPreBims": false,
+    "IsAllDataUpdated": true
+  }
+}
