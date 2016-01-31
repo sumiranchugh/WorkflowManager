@@ -1,13 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/processdef" xmlns:modeler="http://activiti.com/modeler" modeler:version="1.0ev" modeler:exportDateTime="20160112173909" modeler:modelId="971035" modeler:modelVersion="1" modeler:modelLastUpdated="1452620335377">
+<definitions xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+             xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC"
+             xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:modeler="http://activiti.com/modeler"
+             xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" typeLanguage="http://www.w3.org/2001/XMLSchema"
+             expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/processdef"
+             modeler:version="1.0ev" modeler:exportDateTime="20160112173909" modeler:modelId="971035"
+             modeler:modelVersion="1" modeler:modelLastUpdated="1452620335377">
   <process id="PB" name="PB" isExecutable="true">
     <startEvent id="start" name="Start" activiti:initiator="initiator"/>
-    <userTask id="sid-1F2F9558-7F08-4188-8F54-7D889351A9ED" name="Data validation" activiti:candidateGroups="sewasamiti">
+    <userTask id="sid-1F2F9558-7F08-4188-8F54-7D889351A9ED" name="Data validation"
+              activiti:candidateGroups="ACMONLINEUSER">
       <extensionElements>
         <modeler:allow-send-email>true</modeler:allow-send-email>
       </extensionElements>
     </userTask>
-    <userTask id="sid-1B2C6535-71C0-4D10-A0D9-B982A438A2EF" name="Duplication Check" activiti:candidateGroups="sewasamiti">
+    <userTask id="sid-1B2C6535-71C0-4D10-A0D9-B982A438A2EF" name="Duplication Check"
+              activiti:candidateGroups="ACMONLINEUSER">
       <extensionElements>
         <modeler:allow-send-email>true</modeler:allow-send-email>
       </extensionElements>
@@ -40,13 +48,15 @@
     <sequenceFlow id="sid-012A0790-6A29-4328-A519-8C40B5AC13D3" sourceRef="sid-E283239D-4BCF-411F-B1AD-88481F6A4C80" targetRef="sid-9356010D-AFC8-46A9-8A5C-C90C472F3890"/>
     <sequenceFlow id="sid-5E9705D2-50B8-4002-8F8C-972C8D0852A1" sourceRef="sid-823D54FB-F011-4EB8-AFC9-59B6D01A9117" targetRef="sid-9356010D-AFC8-46A9-8A5C-C90C472F3890"/>
     <sequenceFlow id="sid-714D5CE8-03A1-4412-A5D9-6E8B4F784FDD" sourceRef="sid-BFC628F8-D077-465A-9ABC-24AFACDF8B0A" targetRef="sid-9356010D-AFC8-46A9-8A5C-C90C472F3890"/>
-    <userTask id="sid-0E5E934C-B670-4F95-9204-F592690D8D81" name="Document and Photo Verification" activiti:candidateGroups="sewasamiti">
+    <userTask id="sid-0E5E934C-B670-4F95-9204-F592690D8D81" name="Document and Photo Verification"
+              activiti:candidateGroups="ACMONLINEUSER">
       <extensionElements>
         <modeler:allow-send-email>true</modeler:allow-send-email>
       </extensionElements>
     </userTask>
     <sequenceFlow id="sid-29A491C9-190C-4CE9-BB83-61DBE8DD3620" sourceRef="sid-9356010D-AFC8-46A9-8A5C-C90C472F3890" targetRef="sid-0E5E934C-B670-4F95-9204-F592690D8D81"/>
-    <userTask id="sid-E04BE858-890A-42D7-B16F-18EC13EBB8A5" name="Batch printing" activiti:candidateGroups="sewasamiti">
+    <userTask id="sid-E04BE858-890A-42D7-B16F-18EC13EBB8A5" name="Batch printing"
+              activiti:candidateGroups="ACMONLINEUSER">
       <extensionElements>
         <modeler:allow-send-email>true</modeler:allow-send-email>
       </extensionElements>

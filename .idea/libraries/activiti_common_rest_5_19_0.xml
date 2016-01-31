@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="activiti-common-rest-5.19.0">
+    <CLASSES>
+      <root url="jar://D:/activiti-5.19.0/libs/libs/activiti-common-rest-5.19.0.jar!/" />
+      <root url="jar://D:/activiti-5.19.0/libs/libs/activiti-explorer-5.19.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/activiti-5.19.0/libs/libs/activiti-common-rest-5.19.0-sources.jar!/" />
+      <root url="jar://D:/activiti-5.19.0/libs/libs/activiti-explorer-5.19.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

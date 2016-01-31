@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * Created by Sumiran Chugh on 1/12/2016.
+ * @copyright atlas
  */
 @Component
 public class PrebimsService {
@@ -15,6 +16,7 @@ public class PrebimsService {
     private ApplicantRepository applicantRepository;
 
     public void submitApplication(Applicant applicant){
+
         applicantRepository.save(applicant);
     }
 }

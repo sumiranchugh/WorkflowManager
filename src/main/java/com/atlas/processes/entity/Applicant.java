@@ -21,6 +21,9 @@ public class Applicant {
 
     private String phone;
 
+    public Applicant() {
+    }
+
     public Applicant(String name, String email, String phone) {
         this.name = name;
         this.email = email;
