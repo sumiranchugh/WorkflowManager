@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<p th:text="'Process Started By, ' + ${pv.applicant.name} + '!'"/>
+
+<div>
+    <form action="/handleForm" method="post">
+        <p th:text=" 'Name : '+ ${pv.applicant.name}+''"/>
+
+        <p th:text="'Phone : '+ ${pv.applicant.phone}+''"/>
+
+        <label> Comments : </label>
+        <textarea name="comments"></textarea>
+        <button name="action" value="approve">Approve</button>
+        <button name="action" value="cancel">Cancel</button>
+
+        <input type="hidden" th:value="${taskId}" th:name="taskId" name="taskid"/>
+    </form>
+</div>
+
+
+</body>
+</html>
