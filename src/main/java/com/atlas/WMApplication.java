@@ -1,14 +1,7 @@
 package com.atlas;
 
-import com.atlas.security.OauthIdentitySession;
-import org.activiti.engine.ProcessEngines;
-import org.activiti.engine.impl.cfg.StandaloneProcessEngineConfiguration;
-import org.activiti.engine.impl.interceptor.SessionFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @SpringBootApplication
 public class WMApplication {
@@ -29,7 +22,7 @@ public class WMApplication {
 	}*/
 
 
-    public static void getProcessEngine() {
+  /*  public static void getProcessEngine() {
         StandaloneProcessEngineConfiguration standaloneProcessEngineConfiguration = (StandaloneProcessEngineConfiguration) StandaloneProcessEngineConfiguration
                 .createProcessEngineConfigurationFromResource("PB.bpmn20.xml");
 
@@ -42,5 +35,5 @@ public class WMApplication {
         ProcessEngines.registerProcessEngine(standaloneProcessEngineConfiguration.buildProcessEngine());
 
 
-    }
+    }*/
 }

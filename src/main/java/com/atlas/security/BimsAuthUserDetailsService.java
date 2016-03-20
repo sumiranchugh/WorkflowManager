@@ -36,7 +36,7 @@ public class BimsAuthUserDetailsService implements AuthenticationUserDetailsServ
         ResponseEntity<com.atlas.security.types.UserDetails> response = restTemplate.exchange(bimsValidateUrl, HttpMethod.GET, entity, com.atlas.security.types.UserDetails.class, token);
         boolean notvalid = response.getBody().isHasError();
         if (notvalid)
-            throw new UsernameNotFoundException("");
+            throw new UsernameNotFoundException(response.getBody().getErrorSummary());
         return response.getBody();
     }
 

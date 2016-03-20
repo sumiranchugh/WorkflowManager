@@ -1,6 +1,5 @@
 package com.atlas.common;
 
-import com.atlas.security.types.UserDetails;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
@@ -20,8 +19,5 @@ public class Util {
         return entity;
     }
 
-    public static org.springframework.security.core.userdetails.UserDetails mapUserDetails(UserDetails body) {
 
-        return null;
-    }
 }
